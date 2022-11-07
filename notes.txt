@@ -1,0 +1,24 @@
+class Input
+<> Presents the user with options
+<> Gets the input needed
+<> Creates @input
+
+class Database
+<> contains the hash
+<> maps the appropriate hash onto @input
+
+class Scrapper
+<> does the actual scrapping and maps new information onto @input
+<> maps the appropriate hash onto @input
+
+class Output
+<> outputs the information to the user
+<> allows for a loop if user asked
+<> can end the program
+
+
+*TODO
+<> Fix file structure
+<> Add colorize with filter
+<> Option for select all
+
